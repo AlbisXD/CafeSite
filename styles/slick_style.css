@@ -1,0 +1,156 @@
+/*====================================================================
+slick
+====================================================================*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sliderArea {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.sliderArea.w300 {
+  max-width: 300px;
+}
+
+.slick-slide {
+  margin: 0 5px;
+}
+
+.slick-slide img {
+  /* width: 100%; */
+  /* height: auto; */
+  /* width: 524px; */
+  /* height: 350px; */
+  width: 100%; 
+  height: 350px;
+  object-fit: cover;
+}
+
+/* 矢印位置調整 */
+/* .slick-prev,
+.slick-next {
+  z-index: 1;
+
+  width: 100px;
+  height: 100px;
+} */
+
+/* 矢印変更 */
+/* .slick-prev:before,
+.slick-next:before {
+  color: #000;
+
+  opacity: 1;
+  font-size: 50px;
+} */
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.thumb {
+  margin: 20px 0 0;
+}
+
+.thumb .slick-slide {
+  cursor: pointer;
+}
+
+.thumb .slick-slide:hover {
+  opacity: .7;
+}
+
+
+
+/*===================================
+    slick 矢印
+===================================*/
+
+.slick-arrow {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 0;
+  width: 20px;
+  height: 0px;
+  color: transparent;
+  z-index: 1;
+  transition: opacity 0.5s;
+  z-index: 1;
+}
+.slick-arrow:hover {
+  opacity: 1;
+}
+
+/* 共通設定 */
+
+.slick-next::before,
+.slick-next::after,
+.slick-prev::before,
+.slick-prev::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  vertical-align: middle;
+}
+.slick-next::after,
+.slick-prev::after {
+  width: 26px;
+  height: 26px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  opacity: 1;
+}
+
+
+
+/* next */
+
+.slick-next {
+  right: 26px;
+}
+.slick-next::after {
+  right: 4px;
+  transform: rotate(45deg);
+}
+
+/* prev */
+
+.slick-prev {
+  left: 26px;
+}
+.slick-prev::after {
+  left: 4px;
+  transform: rotate(-135deg);
+}
+
+
+  /*===================================
+    slick ドット
+===================================*/
+.slick-dots{
+  bottom: -60px;
+}

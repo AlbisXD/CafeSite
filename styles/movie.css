@@ -1,0 +1,38 @@
+/*========= 背景動画設定のCSS ===============*/
+
+
+#video-area{
+  /* position: fixed; */
+  /*z-index: -1;/*最背面に設定*/
+  /* top: 0; */
+  /* top: 100px;
+  right:0;
+  left:0;
+  bottom:0; */
+  position: relative;/*相対配置*/
+  overflow: hidden;
+}
+
+#video {
+  /*天地中央配置*/
+  /* position: absolute; */
+  z-index: -1;
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-10%, -10%); */
+  /*縦横幅指定*/
+  /*width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+  /*height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+  width:100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.videotext {
+  position: absolute;/*絶対配置*/
+  top: 550px;
+  left: 70px;
+  font-size:3rem;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  font-weight:700;  
+}

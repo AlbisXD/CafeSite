@@ -1,0 +1,92 @@
+ /* PC、スマホ共通スタイル */
+
+ @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
+
+ body {
+   font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+   line-height: normal;
+
+ }
+
+ .whole {
+   background-color: rgb(35, 35, 35)
+ }
+
+ /* ――――――――――――――――――――――――――――――――――――――――――――――――――――
+  ヘッダー
+―――――――――――――――――――――――――――――――――――――――――――――――――――― */
+ header {
+   width: 100%;
+   position: fixed;
+   z-index: 110;
+   display: flex;
+   top: 2rem;
+   /* left: 7rem; */
+ }
+
+ header img {
+   height: 60px;
+   margin: auto auto auto 7rem;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ main {
+   /* headerを固定(fiexed)するため、mainの領域がサイトの左上端にくる（headerと重なる)
+  marginではbodyがmargin箇所を含まない領域になり気持ち悪いので、
+  paddingとした */
+   /* margin-top: 150px; */
+   padding-top: 100px;
+ }
+
+ /* ―――――――――――――――――――――――――――――――――――――
+  ナビゲーション 
+――――――――――――――――――――――――――――――――――――― */
+ nav {
+   width: 100%;
+   height: 40px;
+ }
+
+ nav ul {
+   display: flex;
+   /* max-width: 1200px; */
+   justify-content: flex-end;
+   align-items: center;
+ }
+
+ nav li {
+   margin: 10px 60px 10px 20px;
+   font-size: 14px;
+ }
+
+ nav a:link {
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+ nav a:visited {
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+ nav a:hover {
+   color: #ffffff;
+   text-decoration: underline;
+ }
+
+ nav a:active {
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+ /* ―――――――――――――――――――――――――――――――――――――
+  ナビゲーション 
+――――――――――――――――――――――――――――――――――――― */
