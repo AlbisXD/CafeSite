@@ -8,15 +8,12 @@
       <li class="footer-li">スタッフ募集</li>
     </ul>
     <div class="copyright">
-      <p>© Cafe-Site</p>
+      <p>©MARU Inc </p>
     </div>
   </div>
 
 </footer>
 <?php wp_footer(); ?>
-
-
-
 
 <!-- ハンーガメニュー -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

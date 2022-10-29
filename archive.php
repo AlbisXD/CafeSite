@@ -7,7 +7,7 @@ Template Name: アーカイブ
 <?php get_header(); ?>
 
 <main>
-  <div class="news-title">
+  <div class="news_title commontitle">
     <span>NEWS</span>
   </div>
 
@@ -32,21 +32,25 @@ Template Name: アーカイブ
 
     
       <div class="newscontainer">
-        <div class="newsgrp">
-          <span class="text_category">
-            <?php
-              $cat = get_the_category();
-              $cat = $cat[0];
-              echo get_cat_name($cat->term_id);
-            ?>
-          </span> <!-- カテゴリ -->
-          <p class="text_title"><?php the_title(); ?></p>  <!-- タイトル -->
-          <p class="text_day"><?php echo get_the_date(); ?></p>  <!-- 投稿日 -->
-        </div>
-        <div class="mark_container">
-          <div class="mark"></div>
-        </div>
-        
+        <a href="">
+
+          <div class="newsgrp">
+            <span class="text_category">
+              <?php
+                $cat = get_the_category();
+                $cat = $cat[0];
+                echo get_cat_name($cat->term_id);
+              ?>
+            </span> <!-- カテゴリ -->
+            <p class="text_title"><?php the_title(); ?></p>  <!-- タイトル -->
+            <p class="text_day"><?php echo get_the_date(); ?></p>  <!-- 投稿日 -->
+          </div>
+          <div class="mark_container">
+            <div class="mark"></div>
+          </div>
+
+        </a>
+
         <!-- <a href="<?php echo get_permalink(); ?>"></a> -->
       </div>
 

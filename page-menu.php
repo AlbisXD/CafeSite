@@ -7,7 +7,7 @@ Template Name: メニューページ
 <?php get_header(); ?>
 
 <main>
-  <div class="menu-title">
+  <div class="menu-title commontitle">
     <span>MENU</span>
   </div>
 
@@ -17,7 +17,7 @@ Template Name: メニューページ
       <div class="top-menu-pict">
         <img src="<?php echo get_template_directory_uri(); ?>/images/menu-top.jpg" alt="1" href="">
       </div>
-      <div class="all-menu">
+      <div class="main_menu">
         <div class="left-menu box">
           <table class="left-menu-title">
             <tr>
@@ -71,7 +71,7 @@ Template Name: メニューページ
           </table>
 
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/menu-down.jpg" alt="1" class="bottom-menu-pict" href="juice">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/lineup2.jpg" alt="1" class="bottom-menu-pict" href="juice">
           </div>
 
         </div>

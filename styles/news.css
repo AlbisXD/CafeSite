@@ -1,0 +1,138 @@
+ /* ――――――――――――――――――――――――――――――――――――――――――――――――――――
+  ニュースページ
+―――――――――――――――――――――――――――――――――――――――――――――――――――― */
+ .news_title {
+   text-align: center;
+   font-size: 2rem;
+   /* font-weight: 700; */
+   margin: 100px auto;
+ }
+
+ .news-wrapper {
+   padding: 0 0px 100px 0px;
+   margin: 0 auto;
+   width: 70%;
+ }
+
+ .newscontainer {
+   display: flex;
+   background-color: rgb(110, 100, 87);
+   margin-top: 30px;
+   position: relative;
+
+   border-radius: 20px;
+ }
+
+ .newscontainer a {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+ }
+
+ .newscontainer a:link {
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+ .newscontainer a:visited {
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+ .newsgrp {
+   padding: 30px 30px;
+ }
+
+ .text_category {
+   font-size: 0.8rem;
+   color: #28292b;
+   text-decoration: none;
+   background-color: rgb(161, 157, 153);
+   margin: 0 auto 0 0;
+   width: 160px;
+
+   border-radius: 5px;
+   padding: 2px 5px;
+ }
+
+ .text_title {
+   font-size: 1.2rem;
+   margin: 5px auto 5px 0;
+ }
+
+ .text_day {
+   color: rgb(162, 153, 127);
+ }
+
+ .mark_container {
+   margin: 0 40px 0 auto;
+   display: flex;
+   align-items: center;
+ }
+
+ .mark {
+   display: inline-block;
+   vertical-align: middle;
+   /* color: #333; */
+   color: rgb(254, 246, 238);
+   line-height: 1;
+   position: relative;
+   /* width: 0.8em;
+  height: 0.8em; */
+   width: calc(0.8em * 4);
+   height: calc(0.8em * 4);
+   border: 0.1em solid currentColor;
+   background: currentColor;
+   border-radius: 50%;
+   box-sizing: content-box;
+
+
+   transform: translateX(15px);
+   animation: mark_move-out 0.5s ease forwards;
+ }
+
+ .mark::before {
+   content: '';
+   /* color: #fff; */
+   color: #333;
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-color: transparent;
+   /* border-width: 0.18em 0.31177em; */
+   border-width: calc(0.18em * 3) calc(0.31177em * 3);
+   border-left-color: currentColor;
+   border-right: 0;
+   transform: translateX(15%);
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+
+ }
+
+ .newscontainer:hover .mark {
+   animation: mark_move 1s ease forwards;
+ }
+
+ @keyframes mark_move {
+   0% {
+     transform: translateX(0px)
+   }
+
+   100% {
+     transform: translateX(15px)
+   }
+ }
+
+ @keyframes mark_move-out {
+   0% {
+     transform: translateX(15px)
+   }
+
+   100% {
+     transform: translateX(0px)
+   }
+ }

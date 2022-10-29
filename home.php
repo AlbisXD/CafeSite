@@ -26,8 +26,10 @@ Template Name: トップページ
           <p>動画を再生できる環境ではありません。</p>
         </video>
 
-        <div class="videotext">
-          ここにテキストが入ります
+        <div class="video_text">
+          ここにテキストが
+          <br>
+          入ります
         </div>
 
       </div>
@@ -35,7 +37,7 @@ Template Name: トップページ
     </section>
 
     <section>
-      <div class="news">
+      <div class="home_news">
         <div class="newstitle commontitle">
           <span>NEWS</span>
         </div>
@@ -72,16 +74,19 @@ Template Name: トップページ
       </div>
     </section>
 
-    <section>
-      <div class="concept">
-        <div class="concepttitle commontitle">
-          <span>CONCEPT</span>
-          <p>ここにテキストが入ります。</p>
+    <section class="concept_wrapper">
+      <div class="concept" id="link-concept">
+        <div class="concept_box">
+          <div class="concepttitle commontitle">
+            <span>CONCEPT</span>
+          </div>
+          <div>
+            <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+          </div>
         </div>
         <div class="conceptimg">
           <img src="<?php echo get_template_directory_uri(); ?>/images/concept.jpg" alt="1" ">
         </div>
-      </div>
       </div>
     </section>
 
@@ -105,7 +110,7 @@ Template Name: トップページ
 
 
 
-    <section>
+    <section class="access_wrapper">
       <div class="access">
         <div class="accessarea">
           <div class="accesstext">
@@ -137,8 +142,10 @@ Template Name: トップページ
             </table>
 
           </div>
-          <div class="map" id="link-access">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12971.486565933585!2d139.88663311598228!3d35.63089074642586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60187d03114737b3%3A0xe4d93636d509d3cb!2z5p2x5Lqs44OH44Kj44K644OL44O844Op44Oz44OJ!5e0!3m2!1sja!2sjp!4v1665578763958!5m2!1sja!2sjp" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="gmap">
+            <div class="map" id="link-access">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12971.486565933585!2d139.88663311598228!3d35.63089074642586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60187d03114737b3%3A0xe4d93636d509d3cb!2z5p2x5Lqs44OH44Kj44K644OL44O844Op44Oz44OJ!5e0!3m2!1sja!2sjp!4v1665578763958!5m2!1sja!2sjp" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
       </div>
