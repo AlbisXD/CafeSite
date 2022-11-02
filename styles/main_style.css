@@ -55,6 +55,12 @@
   display: flex;
   margin:0 126px;
 }
+@media screen and (max-width: 768px) {
+  .head_wrapper {
+    margin:0 10px;
+  }
+}
+
 
  .logo {
   line-height: 64px;
@@ -171,7 +177,11 @@ NEWS
  .home_news {
    margin: 100px 70px 200px 70px;
  }
-
+ @media screen and (max-width: 768px) {
+  .home_news {
+    margin: 100px 10px 200px 10px;
+  }
+}
  .newstitle {
    text-align: center;
    font-size: 2rem;
@@ -190,6 +200,11 @@ NEWS
    margin: 0 auto;
    width: 70%;
  }
+ @media screen and (max-width: 768px) {
+  .newslist {
+    width: 100%;
+  }
+}
 
  .list-group:before {
    width: 0;
@@ -221,6 +236,11 @@ NEWS
 ――――――――――――――――――――――――――――――――――――― */
 .concept_wrapper {
   margin:0 126px;
+}
+@media screen and (max-width: 960px) {
+  .concept_wrapper {
+    margin:0 10px;
+  }
 }
 
  .concept {
@@ -303,7 +323,11 @@ ACCESS
 .access_wrapper {
   margin:0 126px;
 }
-
+@media screen and (max-width: 768px) {
+  .access_wrapper {
+    margin:0 10px;
+  }
+}
  .access {
    margin: 200px 0px 50px 0px;
  }
@@ -311,7 +335,7 @@ ACCESS
  .accessarea {
    display: flex;
    /* justify-content: flex-end; */
-   justify-content: center;
+   justify-content: space-between;
  }
 
  @media screen and (max-width: 1305px) {
@@ -321,7 +345,7 @@ ACCESS
 }
 
  .accesstext {
-   margin: 0 100px 0 0;
+   /* margin: 0 100px 0 0; */
  }
 
 
@@ -330,6 +354,11 @@ ACCESS
    /* font-weight: 700; */
    margin-bottom: 60px;
  }
+
+ .gmap {
+  position: relative;
+  width: 60%;
+  }
 
  @media screen and (max-width: 1305px) {
   .accesstitle {
@@ -343,6 +372,12 @@ ACCESS
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 768px) {
+  .gmap {
+    width: 90%;
+    margin:0 10px;
+  }
+}
 
  .accesstext th {
    padding: 10px 30px 10px 0;
@@ -350,14 +385,13 @@ ACCESS
    white-space: nowrap;
  }
 
- .gmap {
-  position: relative;
-  width: 60%;
-  }
+ 
+
  .map {
   height: 0;
   padding-bottom: 56.25%;
   }
+
   .map iframe {
   position: absolute;
   left: 0;
@@ -377,6 +411,11 @@ ACCESS
    padding: 40px 200px 20px 200px;
    /* margin:40px auto 0 auto; */
  }
+ @media screen and (max-width: 700px) {
+  .footer-grp  {
+    padding: 40px 10px 20px 10px;
+  }
+}
 
  .footer-ul {
    display: flex;

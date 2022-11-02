@@ -14,7 +14,7 @@ Template Name: メニューページ
   <section class="menu-cont">
     
     <div class="container">
-      <div class="top-menu-pict">
+      <div class="topMenuPict">
         <img src="<?php echo get_template_directory_uri(); ?>/images/menu-top.jpg" alt="1" href="">
       </div>
       <div class="main_menu">
@@ -28,45 +28,45 @@ Template Name: メニューページ
             </tr>
             <tr>
               <td><p>テキスト</p></td>
-              <td><p>￥２５０</p></td>
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
           </table>
 
@@ -85,27 +85,27 @@ Template Name: メニューページ
             </tr>
             <tr>
               <td><p>テキスト</p></td>
-              <td><p>￥２５０</p></td>
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト3</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト4</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
           </table>
 
@@ -118,15 +118,15 @@ Template Name: メニューページ
             </tr>
             <tr>
               <td><p>テキスト</p></td>
-              <td><p>￥２５０</p></td>
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
             <tr>
               <td><p>テキスト2</p></td>
-              <td><p>￥２５０</p></td>            
-              <td><p>￥３００</p></td>
-              <td><p>￥４００</p></td>
+              <td><p>￥250</p></td>
+              <td><p>￥300</p></td>
+              <td><p>￥400</p></td>
             </tr>
           </table>
         </div>      
